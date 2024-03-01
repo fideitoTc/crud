@@ -1,0 +1,95 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+    }
+    #main{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    }
+    #marco{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    width: 80%;
+    padding: 5px;
+    }
+    .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+    }
+    .tarjeta{
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    }
+
+    
+    
+    label{
+    font-weight: bold;
+    padding: 5px;
+    
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #e0e0e0;
+      }
+      
+      #main {
+        margin-top: 50px;
+      }
+      
+      #marco {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: rgb(35, 129, 180);
+        color: black;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      
+      button {
+        background-color: white;
+        border: black;
+        border-radius: 5px;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+      }
